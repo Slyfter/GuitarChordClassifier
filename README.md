@@ -45,8 +45,10 @@ Note: The model has been trained using my local GPU. In case, you do not have ac
 
 3. Importing Project Files: To access other project files (like the dataset), you can use Google Drive. Use the following command to mount your google drive: 
 
- ```from google.colab import drive ```
- ```drive.mount('/content/drive')```
+ ```
+ from google.colab import drive
+ drive.mount('/content/drive')
+ ```
 
  After mounting the drive, upload your dataset to your Google Drive and you can access it from the colab notebook. If your file path in Google Drive is /content/drive/My Drive/Data/, use that file path to load the data into the variables `train_dir`, `test_dir`, and `unknown_dir`.
 
