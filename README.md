@@ -26,7 +26,7 @@ A pre-trained ResNet152 model is fine-tuned on the gathered data to perform the 
 ```pip install -r requirements.txt```
 
 ## Running the Project
-1. Make sure your data is stored in the appropriate directories ('data/training' and 'data/test').
+1. Make sure your data is stored in the appropriate directories ('data/training' for training, 'data/test' for validation, and 'data/unknown' for additional tests with images the model never saw).
 2. Run the script using the following command:
 
 ```python guitar_chord_classifier.py```
