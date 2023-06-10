@@ -19,11 +19,15 @@ A pre-trained ResNet152 model is fine-tuned on the gathered data to perform the 
 ### Installation
 - Clone this repository using the following command after navigating to the target directory:
 
-```git clone https://github.com/your_username/Guitar-Chord-Classifier.git```
+```
+git clone https://github.com/your_username/Guitar-Chord-Classifier.git
+```
 
 - Install necessary packages by running the following command:
 
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
 ## Running the Project
 1. Make sure your data is stored in the appropriate directories ('data/training' for training, 'data/test' for validation, and 'data/unknown' for additional tests with images the model never saw).
