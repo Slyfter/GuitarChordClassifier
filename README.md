@@ -10,6 +10,8 @@ The data used for this project is composed of images of various guitar chords, g
 ## Model
 A pre-trained ResNet152 model is fine-tuned on the gathered data to perform the task of chord classification. The last fully connected layer of the model is adjusted to have an output size of 14 (equal to the number of chord classes).
 
+Please find the model with the best performance here: https://drive.google.com/file/d/1FxK5mJPCOHaCNwCJN_xsYMG8IGm98Ys0/view?usp=sharing
+
 ## Getting Started
 ### Prerequisites
 - Python 3.10
